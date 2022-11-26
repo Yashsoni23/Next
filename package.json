@@ -1,0 +1,23 @@
+{
+  "name": "nextprofiler",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "watch": "tailwindcss build -i styles/globals.css -o styles/newstyle.css --watch"
+  },
+  "dependencies": {
+    "next": "13.0.5",
+    "next-auth": "^4.17.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5"
+  }
+}
